@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+{% block body %}
+  
+
+  <!-- main page -->
+  <div class="main-body">
+    <div class="form-section">
+      <div class="form-title">
+        <label for="name">Main Paragraph</label>
+      </div>
+      <form method="post">
+      <grammarly-editor-plugin>
+        <textarea id="textarea" rows="10" cols="30" name="p_m" >
+        At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+        </textarea>
+      </grammarly-editor-plugin>
+      <div>
+        <input type="submit" id="btn-a"></button>
+      </div>
+      </form>
+    </div>
+  </div>
+
+{% endblock %}
+  

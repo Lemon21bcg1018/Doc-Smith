@@ -1,0 +1,550 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;600&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #fba937;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ffffff;
+}
+
+.navbar {
+  margin-top: 14px;
+  position: relative;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+.nav-logo {
+  position: absolute;
+  left: 2%;
+  padding: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 250%;
+}
+
+.nav-logo a {
+  text-decoration: none;
+  color: #000;
+}
+
+.smith {
+  font-weight: 100;
+  font-size: 65%;
+}
+
+.nav-button {
+  margin-right: 6%;
+}
+
+.nav-about {
+  padding: 0 2% 0 0;
+}
+
+.nav-about a {
+  color: black;
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 120%;
+}
+
+hr {
+  color: #000;
+  background-color: #000;
+  height: 1px;
+  margin-top: 14px;
+}
+
+/* Nav For mobile phones: */
+@media only screen and (max-width: 768px) {
+  .nav-logo {
+    position: absolute;
+    left: 2%;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 200%;
+  }
+
+  .nav-logo a {
+    text-decoration: none;
+    color: #000;
+  }
+
+  .smith {
+    font-weight: 100;
+    font-size: 65%;
+  }
+
+  .nav-button button {
+    margin-right: 24px;
+    font-size: 80%;
+  }
+
+  .nav-about {
+    padding: 0 2% 0 0;
+  }
+
+  .nav-about a {
+    color: black;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 80%;
+  }
+}
+
+/* PROFILE PAGE CSS STARTS */
+
+.content-left{
+    position: absolute;
+    width: 532px;
+    height: 230px;
+    left: 74px;
+    top: 175px;
+    background: #ffffff;
+    border: 4px solid #000000;
+    border-radius: 8px;
+}
+
+
+
+/* PROFILE PAGE CSS ENDS */
+
+/* button */
+button {
+  padding: 10% 20%;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 120%;
+}
+
+#shadow {
+  border-radius: 4px;
+  border: 2px solid #000;
+  box-shadow: 6px 6px;
+  background-color: #fba937;
+  transition: box-shadow 300ms ease, transform 500ms ease;
+}
+
+#shadow:hover {
+  box-shadow: none;
+}
+
+#shadow:active {
+  transform: scale(0.9);
+}
+
+/* mobile-intro */
+
+@media only screen and (max-width: 768px) {
+
+  #btn-a {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 5px 5px;
+    width: 32%;
+    cursor: pointer;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-size: 100%;
+    margin-top: 8px;
+  }
+
+  /* PROFILE PAGE CSS */
+
+  .profile {
+    display: flex;
+    text-align: center;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .box1 {
+    position: absolute;
+    /* width: 532px; */
+    width: 335px;
+    height: 240px;
+    left: 24px;
+    top: 175px;
+    background: #ffffff;
+    border: 4px solid #000000;
+    border-radius: 8px;
+  }
+  .box2 {
+    position: absolute;
+    /* width: 532px; */
+    width: 335px;
+    height: 244px;
+    left: 24px;
+    top: 450px;
+    background: #ffffff;
+    border: 4px solid #000000;
+    border-radius: 8px;
+  }
+  .profile-1 {
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    left: 10px;
+    top: 15px;
+  
+    background: #d9d9d9;
+    border: 4px solid #000000;
+    border-radius: 8px;
+  }
+  .profile-2 {
+    position: absolute;
+    width: 60px;
+    height: 50px;
+    left: 10px;
+    top: 20px;
+  
+    background: #d9d9d9;
+    border: 4px solid #000000;
+    border-radius: 8px;
+  }
+  .name {
+    position: absolute;
+    width: 94px;
+    height: 37px;
+    left: 140px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+  
+    color: #000000;
+  }
+  
+  .hrr {
+    position: absolute;
+    width: 120px;
+    height: 0px;
+    left: -15px;
+    top: 28px;
+  
+    border: 1px solid #000000;
+  }
+  
+  .paragh-profile-1 {
+    position: absolute;
+    width: 270px;
+    height: 0px;
+    left: 18px;
+    top: 55px;
+    text-align: justify;
+  }
+  .icon-1 {
+    position: absolute;
+    left: 70px;
+    top: 175px;
+    background: #FBA937;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+  }
+  .icon-2 {
+    position: absolute;
+    left: 130px;
+    top: 175px;
+    background: #FBA937;
+    color: white;
+    padding: 1.5px;
+    border-radius: 40px;
+    display: flex;
+  }
+  .icon-3 {
+    position: absolute;
+    left: 190px;
+    top: 175px;
+    background: #FBA937;
+    color: white;
+    border-radius: 30px;
+    display: flex;
+  }
+  
+  .form {
+    display: flex;
+    text-align: center;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .content {
+    position: absolute;
+    width: 600px;
+    height: 504px;
+    left: 774px;
+    top: 175px;
+    background: #ffffff;
+    border: 4px solid #000000;
+    border-radius: 8px;
+  }
+  
+  #conten {
+    border-radius: 4px;
+    border: 3px solid #000;
+    box-shadow: 5px 5px;
+    transition: box-shadow 300ms ease, transform 500ms ease;
+  }
+  .namee {
+    position: absolute;
+    width: 110.72px;
+    height: 25px;
+    left: 1px;
+    top: 36px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #000000;
+  }
+  .inp {
+    position: absolute;
+    width: 567px;
+    height: 40px;
+    left: 15px;
+    top: 75px;
+  
+    background: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 2px;
+  }
+  
+  .email {
+    position: absolute;
+    width: 110.72px;
+    height: 25px;
+    left: 5px;
+    top: 146px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #000000;
+  }
+  .inpp {
+    position: absolute;
+    width: 567px;
+    height: 40px;
+    left: 16px;
+    top: 185px;
+  
+    background: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 2px;
+  }
+  
+  .message {
+    position: absolute;
+    width: 110.72px;
+    height: 25px;
+    left: -4px;
+    top: 250px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #000000;
+  }
+  .in {
+    position: absolute;
+    width: 567px;
+    height: 40px;
+    left: 16px;
+    top: 285px;
+  
+    background: #ffffff;
+    border: 2px solid #000000;
+    border-radius: 2px;
+  }
+  
+  .sp {
+    position: absolute;
+    width: 110.72px;
+    height: 25px;
+    left: 85px;
+    top: 250px;
+  
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #000000;
+  }
+  
+  .texta {
+    position: absolute;
+    width: 565px;
+    height: 130px;
+    left: 16.5px;
+    top: 290px;
+  
+    background: #ffffff;
+    border: 2px solid #000000;
+  }
+  
+  #btn-b {
+    padding: 8px 8px;
+    /* width: 100%; */
+    width: 567px;
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 100%;
+  }
+  #btn-b {
+    border-radius: 4px;
+    border: 2px solid #000;
+    box-shadow: 6px 6px;
+    background-color: #FBA937;
+    transition: box-shadow 300ms ease, transform 500ms ease;
+  }
+  #btn-b:hover {
+    box-shadow: none;
+  }
+  
+  #btn-b:active {
+    transform: scale(0.9);
+  }
+  /* PROFILE PAGE CSS ENDS */
+}
+
+
+#btn-a {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding: 5px 5px;
+  width: 120px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 100%;
+  margin-top: 8px;
+}
+
+#btn-a {
+  border-radius: 4px;
+  border: 2px solid #000;
+  box-shadow: 6px 6px;
+  background-color: #fba937;
+  transition: box-shadow 300ms ease, transform 500ms ease;
+}
+
+#btn-a:hover {
+  box-shadow: none;
+}
+
+#btn-a:active {
+  transform: scale(0.9);
+}
+
+/* footer */
+footer {
+  background-color: #000000;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 30px;
+  /* margin-top: auto; */
+}
+
+footer li {
+  list-style: none;
+  margin: 10px;
+  display: inline-block;
+}
+
+.icons a {
+  background: #ffffff;
+  color: white;
+  padding: 6px;
+  /* font-size: 20px; */
+  border-radius: 30px;
+  display: flex;
+}
+
+.icons a:hover {
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.menu a {
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: capitalize;
+}
+
+.menu a:hover {
+  color: #efeff7;
+  transition: 0.5s;
+}
+
+.footer-copyright {
+  background-color: #fba937;
+  color: #ffffff;
+  padding: 15px;
+  margin-top: 30px;
+  text-transform: capitalize;
+}
+
+.footer-copyright p {
+  color: #000;
+  margin-bottom: 0px;
+}
+
+#textarea {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: solid #000;
+  border-width: 3.2px;
+  border-radius: 4px;
+  padding: 2px 6px 2px 6px;
+}
+
+@media only screen and (max-width: 768px) {
+  #textarea {
+    width: 70%;
+    border: solid #000;
+    border-width: 3.2px;
+    border-radius: 4px;
+    padding: 2px 6px 2px 6px;
+  }
+}
